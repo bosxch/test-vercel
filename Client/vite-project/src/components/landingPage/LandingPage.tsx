@@ -9,7 +9,11 @@ import { State } from '../../Redux/Reducer/reducer';
 import { getFilteredRooms } from '../../Redux/Actions/actions';
 import "./LandingPage.modules.css";
 import CardsLanding from '../cardsLanding/CardsLanding';
-import archivo1 from '../../../images/metodo-de-pago.png'
+import archivo1 from '../../../images/archivo.png'
+import archivo2 from '../../../images/billetera.png'
+import archivo3 from '../../../images/hotel.png'
+import archivo4 from '../../../images/metodo-de-pago.png'
+
 
 const LandingPage: React.FC = () => {
   const carouselImages = [
@@ -78,25 +82,25 @@ const LandingPage: React.FC = () => {
       <div className="imagSlay">
         <div className="archivo">
           <a href='/rooms'>
-          <img src="../../../images/archivo.png" />
+          <img src={archivo1} />
           </a>
           <span>Discover hotels from all the world</span>
         </div>
         <div className="archivo">
           <a href='/rooms'>
-          <img src="../../../images/billetera.png" />
+          <img src={archivo2} />
           </a>
           <span>Get the best sales</span>
         </div>
         <div className="archivo">
           <a href='/rooms'>
-          <img src="../../../images/hotel.png" />
+          <img src={archivo3} />
           </a>
           <span>Compare hotels according to your needs</span>
         </div>
 
         <div className="archivo">
-          <img src={archivo1} />
+          <img src={archivo4} />
           <span>With the most secure payment method</span>
         </div>
       </div>

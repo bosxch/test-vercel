@@ -1,6 +1,7 @@
 import React from "react";
 import TeamMember from "./TeamMember";
 import "./about.css";
+import diegoPic from '../../../images/Diego-photo.jpg'
 
 interface TeamMemberProps {
   name: string;
@@ -12,7 +13,7 @@ const teamMembers: TeamMemberProps[] = [
   {
     name: "Diego Arturo Quevedo",
     linkedin: "https://www.linkedin.com/in/diego-arturo-quevedo-ramirez-2bb197281/",
-    image: "../../images/Diego-photo.jpg",
+    image: "../../../images/Diego-photo.jpg",
   },
   {
     name: "Micaela Diana Solórzano",
