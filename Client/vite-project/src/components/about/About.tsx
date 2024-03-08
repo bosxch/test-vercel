@@ -9,7 +9,9 @@ import javierPic from '../../../images/Javi-photo.jpg'
 import rigobertoPic from '../../../images/Rigo-photo.jpg'
 import agusPic from '../../../images/Agus-photo.jpeg'
 import miguelPic from '../../../images/Miguel-photo.jpg'
-
+import renta from '../../../images/en-renta.png'
+import avatar from '../../../images/avatar.png'
+import propietario from '../../../images/propietario.png'
 interface TeamMemberProps {
   name: string;
   linkedin: string;
@@ -72,11 +74,11 @@ const About: React.FC = () => {
               temporary rental, from cozy homes to modern commercial spaces and
               offices.
             </p>
-            <img src="../../../images/en-renta.png"/>
+            <img src={renta}/>
 
           </div>
           <div className="img-vision">
-            <img src="../../../images/avatar.png"/>
+            <img src={avatar}/>
             <p>
               <h2>For Users:</h2>
               Find your perfect place with Rentify. Search, compare,
@@ -92,7 +94,7 @@ const About: React.FC = () => {
               Register, update availability, and monitor bookings efficiently.
               Access a complete history and maximize your earnings with Rentify.
             </p>
-            <img src="../../../images/propietario.png" />
+            <img src={propietario} />
           </div>
         </div>
       </div>
