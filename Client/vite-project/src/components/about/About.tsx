@@ -20,42 +20,42 @@ const teamMembers: TeamMemberProps[] = [
   {
     name: "Diego Arturo Quevedo",
     linkedin: "https://www.linkedin.com/in/diego-arturo-quevedo-ramirez-2bb197281/",
-    image: "../../../images/Diego-photo.jpg",
+    image: diegoPic,
   },
   {
     name: "Micaela Diana Solórzano",
     linkedin: "https://www.linkedin.com/in/micaela-diana-solórzano-09a588297/",
-    image: "../../../images/Mica-photo.jpeg",
+    image: micaelaPic,
   },
   {
     name: "Nazareth Villar",
     linkedin: "https://www.linkedin.com/in/javier-jesus-martinez-fari%C3%B1as-b71b3968/",
-    image: "../../../images/Naza-photo.jpg",
+    image: nazarethPic,
   },
   {
     name: "Alejandra Foliaco",
     linkedin: "https://www.linkedin.com/in/alejandra-foliaco-ramos-a74137278/",
-    image: "../../../images/Aleja-photo.png",
+    image: alejandraPic,
   },
   {
     name: "Javier Jesus Martinez",
     linkedin: "https://www.linkedin.com/in/javier-jesus-martinez-fari%C3%B1as-b71b3968/",
-    image: "../../../images/Javi-photo.jpg",
+    image: javierPic,
   },
   {
     name: "Rigoberto Maximiliano",
     linkedin: "https://www.linkedin.com/in/rigoberto-martinez-quintana-a954787b/",
-    image: "../../../images/Rigo-photo.jpg",
+    image: rigobertoPic,
   },
   {
     name: "Agustin Racca",
     linkedin: "https://www.linkedin.com/in/agustin-racca-799414271/",
-    image: "../../../images/Agus-photo.jpeg",
+    image: agusPic,
   },
   {
     name: "Miguel Angel Rodriguez",
     linkedin: "https://www.linkedin.com/in/miguel-angel-rodríguez-pulgarin-00a386259/",
-    image: "../../../images/Miguel-photo.jpg",
+    image: miguelPic,
   }
 ];
 
