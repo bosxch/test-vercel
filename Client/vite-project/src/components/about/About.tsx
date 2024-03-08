@@ -2,6 +2,13 @@ import React from "react";
 import TeamMember from "./TeamMember";
 import "./about.css";
 import diegoPic from '../../../images/Diego-photo.jpg'
+import micaelaPic from '../../../images/Mica-photo.jpeg'
+import nazarethPic from '../../../images/Naza-photo.jpg'
+import alejandraPic from '../../../images/Aleja-photo.png'
+import javierPic from '../../../images/Javi-photo.jpg'
+import rigobertoPic from '../../../images/Rigo-photo.jpg'
+import agusPic from '../../../images/Agus-photo.jpeg'
+import miguelPic from '../../../images/Miguel-photo.jpg'
 
 interface TeamMemberProps {
   name: string;
