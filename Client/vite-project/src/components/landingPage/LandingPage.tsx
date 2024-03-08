@@ -9,6 +9,7 @@ import { State } from '../../Redux/Reducer/reducer';
 import { getFilteredRooms } from '../../Redux/Actions/actions';
 import "./LandingPage.modules.css";
 import CardsLanding from '../cardsLanding/CardsLanding';
+import archivo1 from '../../../images/metodo-de-pago.png'
 
 const LandingPage: React.FC = () => {
   const carouselImages = [
@@ -95,7 +96,7 @@ const LandingPage: React.FC = () => {
         </div>
 
         <div className="archivo">
-          <img src="./../../images/metodo-de-pago.png" />
+          <img src={archivo1} />
           <span>With the most secure payment method</span>
         </div>
       </div>
