@@ -95,7 +95,7 @@ const LandingPage: React.FC = () => {
         </div>
 
         <div className="archivo">
-          <img src="../../../images/metodo-de-pago.png" />
+          <img src="./../../images/metodo-de-pago.png" />
           <span>With the most secure payment method</span>
         </div>
       </div>
